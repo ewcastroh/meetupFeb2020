@@ -26,7 +26,7 @@ public class BasicCalculatorTest {
         assertEquals(expectedValue, result);
     }
 
-    @DisplayName("Testing several sums")
+    @DisplayName("Testing several sumss")
     @ParameterizedTest(name = "{0} + {1} = {2}")
     @CsvSource({
             "0,    1,   1",
